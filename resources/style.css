@@ -172,19 +172,15 @@ html {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-
-
 }
 
 .courses h3 {
-	
 	padding: 32px 0;
 }
 
 .course-container {
 	background-color: green;
 	width: 85%;
-	
 }
 
 .row {
@@ -192,19 +188,32 @@ html {
 }
 
 .course-box {
-
+	width: 80%;
 }
 
 .box-top {
 	height: 220px;
+
 }
 
+.box-top p, 
+.box-bottom {
+	margin-left: 16px;
+}
+
+
 #box-middle {
-	margin: 0 16px;
+	margin: 0 32px;
+}
+
+#courses {
+	margin: 8px 0;
+	margin-left: 16px;
 }
 
 .course-box img {
   width: 100%;
+  margin-bottom: 16px;
   
 }
 	
