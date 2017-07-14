@@ -6,7 +6,6 @@ html {
 	font-size: 16px;
 }
 
-
 /* Header Section */
 
 .header {
@@ -48,12 +47,16 @@ html {
 	color: rgb(75, 79, 79);
 }
 
+.menu a:hover {
+	font-weight: bold;
+}
 /* Banner Section */
+
 .banner {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color: rgb(192, 208, 224);
+	background-color: rgb(198, 233, 225);
 }
 
 .banner img {
@@ -62,7 +65,6 @@ html {
 }
 
 .banner-content {
-	
 	padding-left: 40px;
 }
 
@@ -74,7 +76,7 @@ html {
 
 .banner-content p {
 	font-size: 1.15rem;
-	margin-bottom: 25px;
+	margin-bottom: 30px;
 	line-height: 1.5rem;
 }
 
@@ -84,13 +86,105 @@ html {
 	padding-bottom: 8px;
 }
 
-.button {
-	background-color: grey;
-	text-align: center;
+.banner a {
+	padding: .5rem 7rem;
+    background-color: white;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 300;
+    border-radius: 5px; 
+    color: black;
+}
 
+.banner a:hover {
+	font-weight: bold;
 }
 
 
+/* Article section */
 
+.article {
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.main-article {
+	background-color: pink;
+	width: 60%;
+	margin: 32px 24px;
+}
+
+.main-article img {
+	width: 100%;	
+}
+
+.article h3 {
+	padding: 32px 0;
+}
+
+.article h6 {
+	padding-top: 32px;
+}
+
+.sub-article {
+	width: 423px;
+	background-color: yellow;
+	margin-top: 16px;
+}
+
+.sub-article h5 {
+	margin: 8px 0;
+}
+
+.sub-article a {
+	text-decoration: none;
+	color: rgb(99, 147, 203);
+}
+
+.info-box {
+	display: flex;
+	align-items: center;
+}
+
+.info-box img {
+	width: 35%;
+	margin: 16px;
+}
+
+#title-md {
+	font-size: 1.85rem;
+	font-weight: 700;
+}
+
+.info-box:last-child {
+	background-color: grey;
+}
+
+/* Course section */
+
+.courses {
+	background-color: blue;
+	
+}
+
+.courses h3 {
+	text-align: center;
+	padding: 32px 0;
+}
+
+.course-container {
+	background-color: green;
+
+}
+
+.row {
+	display: flex;
+
+}
+
+.course-box {
 
 }
