@@ -38,7 +38,12 @@ h6, a {
 	color: rgb(77, 79, 79);
 }
 
-
+.mobile-menu, 
+.mobile-img,
+.mobile-tabs,
+.video-mobile {
+	display: none;
+}
 
 
 /* Header Section */
@@ -273,6 +278,13 @@ video {
 	padding: 16px;
 }
 
+.description {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+
 /* Footer starts here */
  .footer {
  	display: flex;
@@ -290,5 +302,160 @@ video {
 	margin-right: 20px;
 }
 
+.legal a {
+	text-decoration: none;
+}
+
+.legal a:hover {
+	font-weight: 500;
+}
 
 
+/* Media Query for 480px and smaller */
+
+@media only screen and (max-width: 480px) {
+
+	.header {
+		width: 100%;
+		padding: 0px;
+	}
+
+	.mobile-menu {
+		height: 64px;
+		display: flex;
+		width: 100%;
+	}
+
+	.icons {
+		width: 100%;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	.icons img:hover {
+		background-color:rgb(251, 251, 251);
+		padding: 10px 20px;
+		border-radius: 50%;
+	}
+
+	.logo, 
+	.menu {
+		display: none;
+	}
+
+	/* Banner */
+
+	.banner {
+		display: block;
+		padding: 0;
+		padding-bottom: 32px;
+	}
+
+	.banner img {
+		height: 180px;
+		width: 100%;
+
+	}
+
+	.banner-content {
+		margin-left: 16px;
+	}
+
+	.banner-content h2 {
+		margin: 32px 0;
+
+	}
+
+	.button {
+		margin-top: 24px;
+		width: 100%;
+	}
+
+	/* Article */
+	
+	.article-container {
+		background-color: yellow;
+		width: 100%;
+	}
+
+	.main-article {
+		display: none;
+	}
+
+	.sub-article {
+		padding-top: 0px;
+		padding-bottom: 32px;
+		margin: 0;
+		width: 100%;
+	}
+
+	.info-box {
+		display: block;
+		background-color: red;
+		margin: 16px 16px 0 16px; 
+	}
+
+	.info-box img {
+		display: none;
+	}
+
+	.mobile-img {
+		display: block;
+		width: 100%;
+	}
+
+	/* Courses */
+
+	.course-container {
+		display: none;
+	}
+
+	.courses {
+		background-color: white;
+	}
+
+	.mobile-tabs {
+		display: block;
+		width: 92%;
+	}
+
+	.tabs h3 {
+		background-color: rgb(235, 237, 239);
+		padding: 16px;
+		font-size: 1.25rem;
+		margin: 0 16px 8px 16px;
+		border-radius: 5px;
+		font-weight: 500;
+	}
+
+	.tabs h3:hover {
+		background-color: rgb(199, 203, 200);
+	}
+
+	/* Exhibit */
+	.exhibit-content,
+	.sub-exhibit {
+		display: none;
+	}
+
+	.exhibit {
+		padding-bottom: 24px;
+	}
+
+	.main-exhibit {
+		width: 100%;
+		padding: 0;
+
+	}
+	.main-exhibit video {
+		width: 100%;
+	}
+
+
+	/* Footer */
+
+	.footer {
+		padding: 16px 0;
+		border: none;
+	}
