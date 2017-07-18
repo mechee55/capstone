@@ -458,4 +458,11 @@ video {
 	.footer {
 		padding: 16px 0;
 		border: none;
+		font-size: 0.80rem;
+		display: flex;
+		justify-content: center;
+	}
+
+	.legal {
+		display: none;
 	}
