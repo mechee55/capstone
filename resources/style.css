@@ -394,18 +394,21 @@ video {
 		margin: 16px 16px 0 16px; 
 	}
 
-	.info-box img {
+	#pc-img {
 		display: none;
 	}
 
-	.info-content:last-child {
+	.info-box:last-child {
 		background-color: white;
 	}
 
-
 	.mobile-img {
 		display: block;
+	}
+
+	.mobile-img img {
 		width: 100%;
+		margin: 0;
 	}
 
 	/* Courses */
