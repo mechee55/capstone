@@ -375,7 +375,6 @@ video {
 	/* Article */
 	
 	.article-container {
-		background-color: yellow;
 		width: 100%;
 	}
 
@@ -392,13 +391,17 @@ video {
 
 	.info-box {
 		display: block;
-		background-color: red;
 		margin: 16px 16px 0 16px; 
 	}
 
 	.info-box img {
 		display: none;
 	}
+
+	.info-content:last-child {
+		background-color: white;
+	}
+
 
 	.mobile-img {
 		display: block;
